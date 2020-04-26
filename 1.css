@@ -1,0 +1,900 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-image: url("./img/web.jpg");
+    background-position: fix;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        margin: auto;
+    }
+}
+
+.trang-chu {
+    width: 100%;
+}
+
+.trang-chu-tren {
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 150px;
+}
+
+.trang-chu-tren-trai {
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trang-chu-tren-trai img {
+    height: 100%;
+}
+
+.trang-chu-tren-phai {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trang-chu-tren-phai button {
+    border: none;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.trang-chu-tren-phai button img {
+    height: 100%;
+}
+
+.trang-chu-duoi {
+    width: 100%;
+    margin-top: 50px;
+    padding-right: 150px;
+    padding-bottom: 58px;
+}
+
+.trang-chu-duoi-tieu-de {
+    text-align: right;
+}
+
+.trang-chu-duoi-tieu-de .h1 {
+    color: rgb(5, 110, 160);
+}
+
+.trang-chu-duoi-tieu-de .h2 {
+    color: rgb(5, 110, 160);
+}
+
+.trang-chu-duoi-tieu-de .h3 {
+    color: rgb(222, 0, 0);
+}
+
+
+/* .trang-chu-tren-phai .nut-phai{
+    margin-right: 100px;
+} */
+
+.trang-chu-duoi-list {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trang-chu-duoi-list ul {
+    width: 500px;
+    list-style: none;
+}
+
+.trang-chu-duoi-list ul li a {
+    color: rgb(255, 90, 0);
+}
+
+.trang-chu-duoi-list ul li img {
+    height: 12px;
+    margin-right: 10px;
+}
+
+.trang-chu-duoi-list ul li a hr {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* trang1 */
+
+.trang-1 {
+    width: 100%;
+    padding-bottom: 500px;
+}
+
+.trang-1 .khoi-tren {
+    padding-top: 12px;
+    margin-top: 40px;
+    width: 600px;
+    height: 100px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: rgb(222, 0, 0);
+    color: rgb(255, 240, 0);
+}
+
+.trang-1 .khoi-tren h3 {
+    margin-left: 330px;
+    /* margin-top: 200px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* trang 2 */
+
+.trang-2 {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.khoi-tren-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    margin-bottom: 20px;
+}
+
+.khoi-tren-2-trai {
+    padding-top: 5px;
+    width: 600px;
+    height: 100px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: rgb(222, 0, 0);
+    color: rgb(255, 240, 0);
+}
+
+.khoi-tren-2-trai p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 270px;
+    font-size: 13px;
+}
+
+.khoi-tren-2-trai h3 {
+    margin-left: 270px;
+    /* margin-top: 200px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.khoi-tren-2-phai {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.khoi-tren-2-phai button {
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.khoi-tren-2-phai button img {
+    height: 30px;
+}
+
+.khoi-duoi-2 {
+    margin: auto;
+    width: 650px;
+}
+
+.khoi-duoi-2-div {
+    width: 800px;
+    height: 180px;
+    /* background-color: aquamarine; */
+    position: relative;
+    z-index: 0;
+    margin-bottom: 40px;
+}
+
+.khoi-duoi-2-tren {
+    width: 230px;
+    height: 50px;
+    background-color: rgb(222, 0, 0);
+    border-radius: 30px;
+    z-index: 2;
+    color: rgb(244, 208, 208);
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.khoi-duoi-2-duoi {
+    z-index: -1;
+    width: 780px;
+    height: 155px;
+    border-radius: 68px;
+    border: 1px solid gray;
+    background-color: white;
+    margin-left: 20px;
+    position: absolute;
+    top: 25px;
+    padding-top: 30px;
+    color: rgb(222, 0, 0);
+    padding-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.khoi-duoi-2-duoi h4 {
+    display: inline;
+}
+
+.khoi-duoi-2 .sach1-trang2 {
+    width: 180px;
+    position: absolute;
+    right: -20px;
+    top: -10px;
+}
+
+.khoi-duoi-2 .tien1-trang2 {
+    position: absolute;
+    width: 100px;
+    bottom: -14px;
+    right: 17px;
+}
+
+.khoi2-2 {
+    height: 180px;
+}
+
+.khoi2-2 p {
+    display: inline;
+}
+
+.sach2-trang2 {
+    width: 550px;
+    position: absolute;
+    right: -35px;
+    top: -20px;
+}
+
+.g181 {
+    width: 100px;
+    position: absolute;
+    top: 130px;
+    left: 280px;
+}
+
+.g20 {
+    width: 100px;
+    position: absolute;
+    top: 130px;
+    left: 390px;
+}
+
+.g182 {
+    width: 100px;
+    position: absolute;
+    top: 130px;
+    left: 495px;
+}
+
+.g183 {
+    width: 100px;
+    position: absolute;
+    top: 130px;
+    left: 605px;
+}
+
+.g184 {
+    width: 100px;
+    position: absolute;
+    top: 130px;
+    left: 710px;
+}
+
+.khoi-3-note {
+    padding-top: 15px;
+}
+
+.khoi-3-note-duoi {
+    height: 130px;
+}
+
+.note-3-trang2 {
+    margin-bottom: 12px;
+}
+
+.sach3-trang2 {
+    position: absolute;
+    right: 100px;
+    top: -5px;
+    width: 150px;
+}
+
+.tien3-trang2 {
+    width: 100px;
+    position: absolute;
+    right: 70px;
+    top: 135px;
+}
+
+.note-4-trang2 {
+    height: 100px;
+}
+
+.khoi-4-note {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    top: 0px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.khoi-4-note li {
+    margin-left: 90px;
+}
+
+.sach4-trang2 {
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    width: 180px;
+}
+
+.tien4-trang2 {
+    position: absolute;
+    width: 100px;
+    top: 80px;
+    left: 200px;
+}
+
+.khoi-5-note-duoi {
+    height: 135px;
+}
+
+.khoi-5-note-duoi p span {
+    color: rgb(8, 86, 151);
+}
+
+.note-5-trang2 {
+    height: 165px;
+}
+
+.sach5-trang2 {
+    position: absolute;
+    width: 550px;
+    right: -20px;
+    top: -10px;
+}
+
+.g51 {
+    width: 100px;
+    position: absolute;
+    top: 140px;
+    left: 270px;
+}
+
+.g451 {
+    width: 100px;
+    position: absolute;
+    top: 140px;
+    left: 380px;
+}
+
+.g452 {
+    width: 100px;
+    position: absolute;
+    top: 140px;
+    left: 495px;
+}
+
+.g453 {
+    width: 100px;
+    position: absolute;
+    top: 140px;
+    left: 605px;
+}
+
+.g454 {
+    width: 100px;
+    position: absolute;
+    top: 140px;
+    left: 720px;
+}
+
+.khoi-2-end {
+    width: 800px;
+    height: 140px;
+    /* background-color: rgb(255, 240, 0); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.khoi-2-end .end-trai {
+    width: 350px;
+    height: 120px;
+    border: 1px solid gray;
+    position: relative;
+    border-radius: 60px;
+}
+
+.khoi-2-end .end-phai {
+    width: 350px;
+    height: 120px;
+    border: 1px solid gray;
+    border-radius: 60px;
+    position: relative;
+}
+
+.khoi-2-end .end-trai .sach-trang2 {
+    width: 130px;
+    position: relative;
+    top: -30px;
+    left: -30px;
+}
+
+.khoi-2-end .sachs-trang2 {
+    width: 130px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.khoi-2-end .end-trai p {
+    color: rgb(222, 0, 0);
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.khoi-2-end .end-trai p span {
+    color: rgb(8, 86, 151);
+}
+
+.khoi-2-end .end-phai p {
+    color: rgb(222, 0, 0);
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.khoi-2-end .end-phai p span {
+    color: rgb(8, 86, 151);
+}
+
+.tien-khoi-6 {
+    position: absolute;
+    width: 100px;
+    bottom: -17px;
+    left: 120px;
+}
+
+.video-2-div {
+    margin-left: 0px;
+    display: none;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.video-2-div video {
+    width: 100%;
+}
+
+.video-2-div img {
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+.show {
+    display: block;
+    transition: 0.5s;
+    opacity: 1 !important;
+    z-index: 1;
+    margin: auto;
+}
+
+.mo {
+    /* opacity: 0.5; */
+    position: relative;
+    z-index: -1;
+}
+
+
+/* trang3 */
+
+.sach1-trang3 {
+    width: 330px;
+    position: absolute;
+    right: -10px;
+    top: -30px;
+}
+
+.tien1-trang3 {
+    width: 100px;
+    position: absolute;
+    bottom: 3px;
+    right: 150px;
+}
+
+.tien2-trang3 {
+    width: 100px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+}
+
+.note-2-trang3 {
+    height: 210px;
+    margin-bottom: 60px;
+}
+
+.note-2-trang3 .khoi2-2 {
+    height: 210px;
+}
+
+.sach2-trang3 {
+    position: absolute;
+    right: -25px;
+    width: 420px;
+    top: 5px;
+}
+
+.tuoi-3{
+    position: absolute;
+    right: -25px;
+    width: 340px;
+    bottom: 20px;
+}
+.k18-3{
+    position: absolute;
+    right: 100px;
+    width: 120px;
+    bottom: -35px;
+}
+.sach3-trang3{
+    width: 440px;
+    position: absolute;
+    right: -30px;
+    width: 420px;
+    top: -10px;
+}
+.k45-3{
+    width: 100px;
+    position: absolute;
+    left: 270px;
+    width: 100px;
+    bottom: -8px;
+}
+.note-1-trang3{
+    margin-top: 30px;
+}
+
+/* trang4 */
+
+.note-1-trang4{
+    height: 200px;
+    margin-bottom: 60px;
+}
+.note-1-trang4 .khoi-duoi-2-duoi{
+    height: 200px;
+}
+.tien1-trang4{
+    width: 100px;
+    position: absolute;
+    bottom: -40px;
+    right: 30px;
+}
+.sach1-trang4{
+    width: 200px;
+    position: absolute;
+    top: -20px;
+    right: -30px;
+}
+.note-3-trang4{
+    height: 170px;
+}
+.khoi-3-note-duoi{
+    height: 170px;
+}
+.sach3-trang4{
+    width: 420px;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+}
+.kb33{
+    width: 120px;
+    position: absolute;
+    right: 80px;
+    bottom: -40px;
+}
+.sach4-trang4{
+    position: absolute;
+    width: 700px;
+    top:0px;
+    right: -30px;
+}
+.end-4{
+    width: 100px;
+    position: absolute;
+}
+.k100{
+    bottom: -40px;
+    left: 150px;
+}
+.k9-1{
+    bottom: -20px;
+    left: 300px;
+}
+.k9-2{
+    bottom: -10px;
+    left: 410px;
+}
+.botranh-4{
+    position: absolute;
+    width: 200px;
+    right: 0px;
+    bottom: 0;
+}
+.note-2-trang5{
+    height: 220px;
+}
+.note-2-trang5 .khoi2-2{
+    height: 220px;
+}
+.noteImg2-trang5{
+    width: 500px;
+    top: -10px;
+}
+.tuoi-5{
+    width: 260px;
+    position: absolute;
+    bottom: 60px;
+    left: 390px;
+}
+.k{
+    width: 80px;
+    position: absolute;
+}
+.k14-1{
+    bottom: 20px;
+    left: 380px;
+}
+.k14-2{
+    bottom: 30px;
+    left: 470px;
+}
+.k15{
+    bottom: 30px;
+    left: 570px;
+}
+.k11{
+    bottom: 50px;
+    right: 20px;
+}
+.not-3-trang5{
+    height: 170px;
+}
+.note-3-trang5 .khoi-5-note-duoi{
+    height: 170px;
+}
+.k5{
+    position: absolute;
+    width: 80px;
+    bottom: 0px !important;
+}
+.sach4-trang5{
+    position: absolute;
+    width: 350px;
+    right: -30px;
+    top: -10px;
+}
+.k4-5{
+    width: 80px;
+    position: absolute;
+}
+.k451{
+    bottom: -20px;
+    left: 500px;
+}
+.k452{
+    bottom: -35px;
+    left: 700px;
+}
+.botranh5{
+    width: 180px;
+    right: -50px;
+    bottom: 20px;
+}
+
+.note-1-trang6{
+    margin-top: 110px;
+    height: 250px;
+}
+.note-1-trang6 .khoi2-2{
+    height: 250px;
+    padding-top: 60px;
+    border-radius: 100px;
+}
+.sach1-trang6{
+    position: absolute;
+    width: 550px;
+    right: -70px;
+    top: -60px;
+}
+#trang-6 .khoi-tren-2-trai{
+    padding-top: 20px;
+}
+.kc186{
+    position: absolute;
+    bottom: 10px;
+    width: 100px;
+    right: 150px;
+}
+.note-1-trang7{
+    height: 190px;
+    margin-bottom: 60px;
+}
+.note-1-trang7 .khoi-duoi-2-duoi{
+    height: 190px;
+    
+}
+
+.sach1-trang7{
+    width: 350px;
+    position: absolute;
+    right: -30px;
+    top: -20px;
+}
+.tuoi-7{
+    width: 310px;
+    position: absolute;
+    right: -30px;
+    bottom: 50px;
+}
+.kc13-7{
+    width: 100px;
+    position: absolute;
+    right: 60px;
+    bottom: 0px;
+}
+.sach2-trang7{
+    width: 360px;
+    position: absolute;
+    top:-20px;
+    right: -30px;
+}
+.note-2-trang7{
+    height: 150px;
+    margin-bottom: 80px;
+}
+.note-2-trang7 .khoi-duoi-2-duoi{
+    height: 150px;
+}
+.kb45-7{
+    width: 100px;
+    position: absolute;
+    bottom: -40px;
+    right: 60px;
+}
+.sach3-trang7{
+    width: 340px;
+    position: absolute;
+    top:-20px;
+    right: -30px;
+}
+.k59-7{
+    width: 100px;
+    position: absolute;
+    bottom:-40px;
+    right: 50px;
+}
+.note-1-trang8{
+    height: 250px;
+}
+.note-1-trang8 .khoi-duoi-2-duoi{
+    height: 250px;
+    border-radius: 110px;
+}
+.sach1-trang8{
+    width: 430px;
+    position: absolute;
+    right: -30px;
+    top: 0px;
+}
+.t1-8{
+    width: 370px;
+    position: absolute;
+    bottom: 50px;
+    right: -10px;
+}
+.k10-1{
+    width: 80px;
+    position: absolute;
+    bottom: 40px;
+    left: 430px;
+}
+.k10-2{
+    width: 80px;
+    position: absolute;
+    bottom: 40px;
+    left: 530px;
+}
+.k11{
+    width: 80px;
+    position: absolute;
+    bottom: 40px;
+    left: 630px;
+}
+.k13k5{
+    width: 80px;
+    position: absolute;
+    bottom: 20px;
+    left: 730px;
+}
+.sach2-trang8{
+    width: 450px;
+    position: absolute;
+    right: -30px;
+    top: 0px;
+}
+.note-5-trang8{
+    height: 230px;
+}
+.note-5-trang8 .khoi-duoi-2-duoi{
+    height: 230px;
+    border-radius: 110px ;
+    padding-top: 70px;
+}
+.k81{
+    position: absolute;
+    width: 80px;
+    bottom: 20px;
+    left: 400px;
+}
+.k82{
+    position: absolute;
+    width: 80px;
+    bottom: 20px;
+    left: 500px;
+}
+.k83{
+    position: absolute;
+    width: 80px;
+    bottom: 20px;
+    left: 600px;
+}
+.k518{
+    position: absolute;
+    width: 80px;
+    bottom: -10px;
+    left: 700px;
+}
+#trang-8 .khoi-tren-2-trai{
+    padding-top: 30px;
+}
+#trang-2 .khoi-duoi-2-div{
+    margin-bottom: 40px;
+}
+button:hover{
+    transform:scale(1.1,1.1);
+}
